@@ -1,0 +1,29 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  /* min-width: 100px; */
+}
+
+.message__user {
+  margin-left: auto;
+  max-width: 80%;
+  color: white;
+  text-align: left !important;
+}
+
+.message__guest {
+  max-width: 80%;
+}
+
+.message__userCard {
+  background-color: #0b81ff !important;
+}
+
+.message__guestCard {
+  background-color: #e9e9eb !important;
+}
+
+.message_main_content {
+  text-align: left !important;
+}

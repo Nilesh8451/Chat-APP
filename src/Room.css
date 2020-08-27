@@ -1,0 +1,51 @@
+.room {
+  height: 100vh;
+  background-color: #f8f8f8;
+  display: grid;
+  place-items: center;
+}
+
+.room__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 96%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.room__container>form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.room__container>form>label {
+  font-weight: 700;
+  text-align: left;
+}
+
+.room__container>form>input {
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  height: 30px;
+}
+
+.room__container>form>button {
+  margin-top: 30px;
+  text-transform: inherit !important;
+  background-color: #0a8d48;
+  color: white;
+}
+
+.room__container>form>button:hover {
+  background-color: #05532a;
+}
+
+@media all and (min-width: 1024px) {
+  .room__container {
+    width: 35%;
+  }
+}
